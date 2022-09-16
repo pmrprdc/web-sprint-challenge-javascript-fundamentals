@@ -102,8 +102,9 @@ const zooAnimals = [
   3. Return this new array
   */
 
-  function lowPopulationAnimals(/*Your Code Here*/){
-    /*Your Code Here*/
+  function lowPopulationAnimals(array){
+    const filtered = array.filter(x => x.population <5)
+    return filtered;
   }
   
 
