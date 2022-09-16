@@ -27,16 +27,38 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each.
+   .map is a higher order function that returns a new array of modified objects. This method comes in handy when we need to modify the format of objects within an array.
+
+   .reduce is a higher order function and array method that comes with a built in accumulator and is generally used to return single values from arrays such as a total or an average.
+
+   .filter is a higher a higher order function that returns a new array based on a true or false test that we give it. It is best used to narrow down the list of items in an array based on
+   a specific rule.
 
 2. Explain the difference between a callback and a higher order function.
 
+   A higher order function is a function that receives other functions within it's parameter. A callback function is a function that is called within another function.
+
 3. Explain what a closure is.
+
+A closure happens when a function accesses values outside of its curly braces for context.
 
 4. Describe the four principles of the 'this' keyword.
 
-5. Why do we need super() in an extended class?
+   The four principles of the 'this' keyword are Global Binding, Implicit Binding, New Binding and Explicit binding.
 
-You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
+   In global scope, 'this' will bind to the window object.
+
+   In implicit binding, 'this' will represent the object that will later be passed inside a function.
+
+   In new binding 'this' will refer to the object created by the constructor function it refers to.
+
+   Explicit binding is used in call or apply methods where we explicitly define what 'this' will refer to.
+
+5. Why do we need super() in an extended class?
+   When we extend a constructor functions properties, we have to hace access to the original constructor from the extended class.
+   The super function will replace .call and .bind to fetch these construcor properties.
+
+   You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions
 
