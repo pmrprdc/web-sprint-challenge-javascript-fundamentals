@@ -17,7 +17,9 @@ function myFunction() {
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
+// The variable internal has a function scope. This means it can be accessed anywhere inside myFunction. 
+// When we call a variable from a function within a function, that variable's scope is the parent bracket it was declared in. 
+// If we need to extend the scope of a variable inside a nested function, we will have to return it to make it availbale to the parent scope.
 
 
 
